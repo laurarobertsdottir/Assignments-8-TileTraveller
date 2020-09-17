@@ -110,7 +110,3 @@ while start != (3,1):
             start = start
     if start == (3,1):
         print("Victory!")
-
-
-
-    
