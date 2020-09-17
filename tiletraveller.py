@@ -46,6 +46,8 @@ while start != (3,1):
         else:
             print("Not a valid direction!")
             start = start 
-            
+    if start == (2,3):
+        if direction == "E" or direction == "e":
+            start = ()          
 
     
