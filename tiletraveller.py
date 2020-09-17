@@ -22,9 +22,11 @@ while start != (3,1):
         if direction == "N" or direction == "n":
             start = (1,3)
             átt = "(E)ast or (S)outh."
+            print("You can travel:", átt)
         elif direction == "E" or direction == "e":
             start = (2,2)
             átt = "(W)est or (S)outh."
+            print("You can travel:", átt)
         elif direction == "S" or direction == "s":
             start = (1,1)
             átt = "(N)orth."
@@ -32,5 +34,18 @@ while start != (3,1):
         else:
             print("Not a valid direction!")
             start = start
-        
+    if start == (1,3):
+        if direction == "E" or direction == "e":
+            start = (2,3)
+            átt = "(E)ast or (W)est"
+            print("You can travel:", átt)
+        elif direction == "S" or direction == "s":
+            start = (1,2)
+            átt = "(N)orth or (E)ast or (S)outh."
+            print("You can travel:", átt)
+        else:
+            print("Not a valid direction!")
+            start = start 
+            
+
     
