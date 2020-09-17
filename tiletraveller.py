@@ -10,7 +10,7 @@ print("You can travel:", átt)
 
 while start != (3,1):
     direction = input("Direction: ")
-    if start == (1,1):     
+    if start == (1,1):
         if direction == "N" or direction == "n":
             start = (1,2)
             átt = "(N)orth or (E)ast or (S)outh."
