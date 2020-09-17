@@ -15,6 +15,7 @@ while start != (3,1):
             start = (1,2)
             átt = "(N)orth or (E)ast or (S)outh."
             print("You can travel:", átt)
+            direction = input("Direction: ")
         else: 
             print("Not a valid direction!")
             start = start
