@@ -1,7 +1,8 @@
-# Player starts at pos 1,1
+# Player starts in tile 1,1
 # Depending on where the player is located they can either move north, south, east or west.
 # Ask for which direction the player wants to proceed to.
 # If invalid direction is entered print invalid 
+# Once the player is in the victory tile 3.1, print victory msg and stop loop. 
 
 start = (1,1)
 átt = "(N)orth."
