@@ -19,7 +19,6 @@ while start != (3,1):
         else: 
             print("Not a valid direction!")
             start = start
-            direction = input("Direction: ")
     if start == (1,2):
         if direction == "N" or direction == "n":
             start = (1,3)
