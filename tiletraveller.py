@@ -12,3 +12,5 @@ while start != (3,1):
             direction = input("Direction: ")
         else: 
             print("Not a valid direction!")
+            start = start
+    
