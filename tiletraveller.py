@@ -1,3 +1,8 @@
+# Player starts at pos 1,1
+# Depending on where the player is located they can either move north, south, east or west.
+# Ask for which direction the player wants to proceed to.
+# If invalid direction is entered print invalid 
+
 start = (1,1)
 átt = "(N)orth."
 print("You can travel:", átt)
