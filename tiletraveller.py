@@ -34,7 +34,7 @@ while start != (3,1):
             print("You can travel:", átt)
         else:
             print("Not a valid direction!")
-            print("You can travel:", átt)
+            print("You can travel: (N)orth or (E)ast or (S)outh")
             start = start
     if start == (1,3):
         if direction == "E" or direction == "e":
