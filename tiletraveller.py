@@ -18,6 +18,7 @@ while start != (3,1):
             direction = input("Direction: ")
         else: 
             print("Not a valid direction!")
+            print("You can travel:", átt)
             start = start
     if start == (1,2):
         if direction == "N" or direction == "n":
